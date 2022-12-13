@@ -1,0 +1,41 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 480
+  ClientWidth = 330
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Rectangle1: TRectangle
+    Align = Top
+    Size.Width = 330.000000000000000000
+    Size.Height = 241.000000000000000000
+    Size.PlatformDefault = False
+    object Circle1: TCircle
+      Align = Client
+      Fill.Bitmap.WrapMode = Tile
+      Fill.Kind = Bitmap
+      Size.Width = 330.000000000000000000
+      Size.Height = 241.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Circle1Click
+    end
+  end
+  object Rectangle2: TRectangle
+    Align = Top
+    Position.Y = 241.000000000000000000
+    Size.Width = 330.000000000000000000
+    Size.Height = 241.000000000000000000
+    Size.PlatformDefault = False
+    object Circle2: TCircle
+      Align = Client
+      Size.Width = 330.000000000000000000
+      Size.Height = 241.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Circle2Click
+    end
+  end
+end

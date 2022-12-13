@@ -1,0 +1,30 @@
+object Form1: TForm1
+  Left = 675
+  Top = 125
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 330
+  Fill.Color = xFF686868
+  Fill.Kind = Solid
+  Position = Designed
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  Left = 675
+  Top = 125
+  DesignerMasterStyle = 0
+  object Image1: TImage
+    MultiResBitmap = <
+      item
+      end>
+    Position.X = 104.000000000000000000
+    Position.Y = 312.000000000000000000
+    Visible = False
+  end
+  object Timer1: TTimer
+    Interval = 3000
+    OnTimer = Timer1Timer
+    Left = 176
+    Top = 152
+  end
+end
